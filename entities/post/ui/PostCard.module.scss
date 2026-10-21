@@ -1,0 +1,67 @@
+.card {
+  background: #fff;
+  border: 1px solid #2f80ed;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.text {
+  font-size: 16px;
+  color: #222;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.commentCount {
+  font-size: 14px;
+  color: #555;
+  margin-right: auto;
+}
+
+.editBlock {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
+}
+
+.commentsBlock {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.addComment {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
+}
+
+.commentItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #b0b0b0;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #333;
+  gap: 10px;
+}
