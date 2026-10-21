@@ -1,0 +1,25 @@
+.button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s;
+  color: #fff;
+  white-space: nowrap;
+
+  &.primary {
+    background: #2f80ed;
+    &:hover { background: #1c6dd0; }
+  }
+
+  &.secondary {
+    background: #2f80ed;
+    &:hover { background: #1c6dd0; }
+  }
+
+  &.danger {
+    background: #eb2f96;
+    &:hover { background: #c41d7f; }
+  }
+}
